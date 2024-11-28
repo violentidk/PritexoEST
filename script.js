@@ -2,10 +2,12 @@
 const firebaseConfig = {
   apiKey: "AIzaSyBrJPtj6hdlTuix9gMiW9vNz8nuXeE6elU",
   authDomain: "pritexo.firebaseapp.com",
+  databaseURL: "https://pritexo-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "pritexo",
-  storageBucket: "pritexo.appspot.com,
+  storageBucket: "pritexo.firebasestorage.app",
   messagingSenderId: "452336140936",
-  appId: "1:452336140936:web:57354db695d49d8475953d"
+  appId: "1:452336140936:web:57354db695d49d8475953d",
+  measurementId: "G-KSZ52763ZC"
 };
 
 // Algatage Firebase
