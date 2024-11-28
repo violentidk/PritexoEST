@@ -1,4 +1,4 @@
-// Firebase konfiguratsioon
+// Firebase konfigurajtsioon
 const firebaseConfig = {
   apiKey: "AIzaSyBrJPtj6hdlTuix9gMiW9vNz8nuXeE6elU",
   authDomain: "pritexo.firebaseapp.com",
