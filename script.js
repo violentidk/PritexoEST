@@ -1,4 +1,4 @@
-// Firebase konfigurajtsioon
+// Firebase konfiguratsioon
 const firebaseConfig = {
   apiKey: "AIzaSyBrJPtj6hdlTuix9gMiW9vNz8nuXeE6elU",
   authDomain: "pritexo.firebaseapp.com",
@@ -74,4 +74,6 @@ function deleteProduct(productId) {
 }
 
 // Laadime tooted, kui leht avaneb
-window.onload = loadProducts;
+window.onload = function() {
+  loadProducts();
+};
