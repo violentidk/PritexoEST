@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tootekataloog</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Tootekataloog</h1>
+  </header>
+
+  <main>
+    <!-- Vorm andmete lisamiseks -->
+    <section id="addProductSection">
+      <h2>Lisa uus toode</h2>
+      <form id="addProductForm">
+        <label>
+          Toote nimi:
+          <input type="text" id="productName" required>
+        </label>
+        <label>
+          Kategooria:
+          <input type="text" id="productCategory" required>
+        </label>
+        <label>
+          Hinnad (nt: Coop:1.99, Selver:2.99):
+          <input type="text" id="productPrices" required>
+        </label>
+        <button type="submit">Lisa</button>
+      </form>
+    </section>
+
+    <!-- Tabel toodete kuvamiseks -->
+    <section>
+      <h2>Toote nimekiri</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Toote Nimi</th>
+            <th>Kategooria</th>
+            <th>Hinnad</th>
+            <th>Viimati Uuendatud</th>
+            <th>Tegevused</th>
+          </tr>
+        </thead>
+        <tbody id="productTableBody">
+          <!-- Tooted kuvatakse siia -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
