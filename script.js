@@ -4,7 +4,7 @@ const firebaseConfig = {
   authDomain: "pritexo.firebaseapp.com",
   projectId: "pritexo",
   storageBucket: "pritexo.appspot.com,
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  messagingSenderId: "452336140936",
   appId: "1:452336140936:web:57354db695d49d8475953d"
 };
 
